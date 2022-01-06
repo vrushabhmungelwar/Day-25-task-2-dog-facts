@@ -4,12 +4,11 @@ body {
 }
 .container {
   text-align: center;
-  padding-top: 20px;
-  height: 20vh;
-  width: 200vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .container2 {
   display: flex;
@@ -19,6 +18,9 @@ body {
   margin-top: 20px;
   align-items: center;
   flex-wrap: wrap;
+}
+.btn {
+  margin-top: 4%;
 }
 img {
   margin-top: 2%;
